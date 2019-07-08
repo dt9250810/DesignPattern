@@ -25,8 +25,8 @@ namespace DesignPattern
                     case "2": // Abstract Factory
                         AbstractFactory.AbstractFactoryPattern.Demo.main();
                         break;
-                    case "3":
-                        Console.WriteLine("a");
+                    case "3": // Singleton
+                        Singleton.SingletonPattern.Demo.main();
                         break;
                     case "4":
                         Console.WriteLine("a");
