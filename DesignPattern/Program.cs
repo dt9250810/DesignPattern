@@ -19,22 +19,41 @@ namespace DesignPattern
                 string option = Console.ReadLine();
                 switch (option)
                 {
-                    case "a":
+                    case "1": // Factory Method
+                        FactoryMethod.FactoryMethod.Demo.main();
+                        break;
+                    case "2":
                         Console.WriteLine("a");
                         break;
-                    case "s":
+                    case "3":
                         Console.WriteLine("a");
                         break;
-                    case "m":
+                    case "4":
                         Console.WriteLine("a");
                         break;
-                    case "d":
+                    case "5":
+                        Console.WriteLine("a");
+                        break;
+                    case "6":
+                        Console.WriteLine("a");
+                        break;
+                    case "7":
+                        Console.WriteLine("a");
+                        break;
+                    case "8":
+                        Console.WriteLine("a");
+                        break;
+                    case "9":
+                        Console.WriteLine("a");
+                        break;
+                    case "10":
                         Console.WriteLine("a");
                         break;
                     case "0":
                         isOpen = false;
                         break;
                 }
+                Console.WriteLine("------------------------------------------------");
             }
             Console.WriteLine("Bye~");
             Console.ReadKey();
