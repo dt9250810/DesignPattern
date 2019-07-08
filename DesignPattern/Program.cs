@@ -20,10 +20,10 @@ namespace DesignPattern
                 switch (option)
                 {
                     case "1": // Factory Method
-                        FactoryMethod.FactoryMethod.Demo.main();
+                        FactoryMethod.FactoryMethodPattern.Demo.main();
                         break;
-                    case "2":
-                        Console.WriteLine("a");
+                    case "2": // Abstract Factory
+                        AbstractFactory.AbstractFactoryPattern.Demo.main();
                         break;
                     case "3":
                         Console.WriteLine("a");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.FactoryMethod
 {
-    class FactoryMethod
+    class FactoryMethodPattern
     {
         /// <summary>
         /// 圖形介面
@@ -45,7 +45,7 @@ namespace DesignPattern.FactoryMethod
         /// </summary>
         public class ShapeFactory
         {
-            public Shape GetShape(string shapeName)
+            public Shape getShape(string shapeName)
             {
                 switch(shapeName)
                 {
@@ -65,7 +65,7 @@ namespace DesignPattern.FactoryMethod
             public static void main()
             {
                 ShapeFactory shapeFactory = new ShapeFactory();
-                Shape shape1 = shapeFactory.GetShape("Square");
+                Shape shape1 = shapeFactory.getShape("Square");
                 shape1.draw();
             }
         }
