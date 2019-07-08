@@ -28,8 +28,8 @@ namespace DesignPattern
                     case "3": // Singleton
                         Singleton.SingletonPattern.Demo.main();
                         break;
-                    case "4":
-                        Console.WriteLine("a");
+                    case "4": // Builder
+                        Builder.BuilderPattern.Demo.main();
                         break;
                     case "5":
                         Console.WriteLine("a");
